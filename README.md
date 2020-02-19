@@ -8,4 +8,4 @@ ln ~/.vim/vimrc ~/.vimrc
 
 ```
 
-open vim and `run :PluginInstall`
+open vim and run `:PluginInstall`
