@@ -2,10 +2,12 @@
 ```bash
 git clone https://github.com/dlazares/vimjob ~/.vim
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 ln ~/.vim/vimrc ~/.vimrc
 
 ```
 
-open vim and run `:PluginInstall`
+open vim and run `:PlugInstall`
+
+close vim, re-open vim, and run `:CocInstall coc-tsserver`
