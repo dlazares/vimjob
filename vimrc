@@ -115,4 +115,5 @@ endfunction
 nmap <leader>rn <Plug>(coc-rename)
 
 colorscheme monokai
+set t_Co=256 " for Tmux
 
