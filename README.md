@@ -20,7 +20,7 @@ ln ~/.vim/vimrc ~/.vimrc
 
 open vim and run `:PlugInstall`
 
-close vim, re-open vim, and run `:CocInstall coc-tsserver`
+close vim, re-open vim, and run `:CocInstall coc-tsserver` for typescript and `:CocInstall coc-pyright` for python
 
 ### For Tmux usage (fix colors)
 1. `echo 'set -g default-terminal "screen-256color"' >> ~/.tmux.conf`
