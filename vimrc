@@ -13,7 +13,7 @@ Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'maxmellon/vim-jsx-pretty'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'pantharshit00/vim-prisma'
 Plug 'rust-lang/rust.vim'
 " Initialize plugin system
